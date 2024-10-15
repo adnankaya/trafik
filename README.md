@@ -1,6 +1,8 @@
 # trafik
 
-trafik is a comprehensive project demonstrating how to efficiently manage and deploy multiple domain-based applications using Docker Compose and Traefik. This repository provides a well-structured and scalable solution for running various web applications, APIs, or services under different domain names, all within a single Docker environment.
+![excalidraw](excalidraw.png)
+
+*trafik* is a comprehensive project demonstrating how to efficiently manage and deploy multiple domain-based applications using Docker Compose and Traefik. This repository provides a well-structured and scalable solution for running various web applications, APIs, or services under different domain names, all within a single Docker environment.
 
 ## File & folder structure
 
