@@ -1,0 +1,18 @@
+include:
+  - ../app1/docker-compose.production.yml
+  - ../app2/docker-compose.production.yml
+
+volumes:
+  production_traefik: {}
+
+services:
+  traefik:
+    ports:
+      - 80:80
+      - 443:443
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - production_traefik:/etc/traefik/acme
+
